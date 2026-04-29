@@ -10,4 +10,5 @@ def reverse_list(lista):
     Returns:
         Una nueva lista con los elementos en orden inverso
     """
-    pass  # Reemplazar con tu implementación
+    copia = lista[::-1]
+    return copia
